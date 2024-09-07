@@ -41,12 +41,15 @@ input {
 }
 
 .note {
-    position: fixed;
-    top: -10px;
-    left: 50%;
-    height: 20px;
+    height: max-content;
     border: 1px var(--light) solid;
     padding: 20px;
-    translate: -50% 0;
     border-radius: 10px;
+    width: max-content;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: black;
+    background: none;
 }
